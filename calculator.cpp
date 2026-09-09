@@ -28,7 +28,7 @@ int main()
 
         cout << "4. Division\n";
 
-        cout << "5. Square Root\n";
+        cout << "5. Max of two numbers\n";
 
         cout << "6. Average\n";
 
@@ -47,8 +47,20 @@ int main()
         switch (choice)
 
         {
-
+          case 5:
+		  cout<<"enter the first num\n";
+		  cin>>firstNumber;
+		  cout<<"enter the second num\n";
+		  cin>>secondNumber;
+		     if (firstNumber > secondNumber){
+				 cout<<"\nfirstNumber is largest\n";
         }
+		else if (secondNumber>firstNumber){
+			cout<<"\nsecondNumber is largest\n";
+		}
+		else
+			cout<<"Both are equal";
+		}
  
     } while (choice != 7);
  
