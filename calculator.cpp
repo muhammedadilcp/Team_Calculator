@@ -55,7 +55,7 @@ int main()
 				cout<<"Enter second number: ";
 				cin>>secondNumber;
 				result=firstNumber*secondNumber;
-				cout<<"The result is: ";<<result;
+				cout<<"The result is: "<<result;
 				break;
         }
  
