@@ -43,11 +43,20 @@ int main()
         double firstNumber;
 
         double secondNumber;
+		
+        double result;
  
         switch (choice)
 
         {
-
+			case 3:
+				cout<<"Enter first number: ";
+				cin>>firstNumber;
+				cout<<"Enter second number: ";
+				cin>>secondNumber;
+				result=firstNumber*secondNumber;
+				cout<<"The result is: ";<<result;
+				break;
         }
  
     } while (choice != 7);
