@@ -1,12 +1,58 @@
-#include<iostream>
+#include <iostream>
+
+#include <cmath>
+ 
 using namespace std;
- int main(){
- int a;
- cout<<"Enter a: ";
- cin>>a;
- int b;
- cout<<"Enter b: ";
- cin>>b;
- int addition=a+b;
- cout<<addition;
- }
+ 
+int main()
+
+{
+
+    int choice;
+ 
+    do
+
+    {
+
+        cout << "\n============================\n";
+
+        cout << "     GIT TEAM CALCULATOR\n";
+
+        cout << "============================\n";
+
+        cout << "1. Addition\n";
+
+        cout << "2. Subtraction\n";
+
+        cout << "3. Multiplication\n";
+
+        cout << "4. Division\n";
+
+        cout << "5. Square Root\n";
+
+        cout << "6. Average\n";
+
+        cout << "7. Exit\n";
+
+        cout << "============================\n";
+ 
+        cout << "Enter your choice: ";
+
+        cin >> choice;
+ 
+        double firstNumber;
+
+        double secondNumber;
+ 
+        switch (choice)
+
+        {
+
+        }
+ 
+    } while (choice != 7);
+ 
+    return 0;
+
+}
+ 
