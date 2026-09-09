@@ -44,12 +44,17 @@ int main()
 
         double secondNumber;
 		
+<<<<<<< HEAD
 		double result;
+=======
+        double result;
+>>>>>>> feature/multiplication
  
         switch (choice)
 
 <<<<<<< HEAD
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
 			  
 			  case 2:
@@ -71,6 +76,16 @@ int main()
 			
 			cout<<"Result is "<<result<<endl;
 			
+=======
+			case 3:
+				cout<<"Enter first number: ";
+				cin>>firstNumber;
+				cout<<"Enter second number: ";
+				cin>>secondNumber;
+				result=firstNumber*secondNumber;
+				cout<<"The result is: "<<result;
+				break;
+>>>>>>> feature/multiplication
         }
 =======
         {case 6:
