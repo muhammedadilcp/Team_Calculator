@@ -48,6 +48,7 @@ int main()
  
         switch (choice)
 
+<<<<<<< HEAD
         {
 			  
 			  case 2:
@@ -70,6 +71,19 @@ int main()
 			cout<<"Result is "<<result<<endl;
 			
         }
+=======
+        {case 6:
+		   double avg;
+		   cout << "Enter first number: ";
+           cin >> firstNumber;
+		   cout << "\nEnter second number: ";
+           cin >> secondNumber;
+		   avg=(firstNumber+secondNumber)/2;
+		   cout<<"\nAverage: "<<avg;
+		   break;
+		}
+
+>>>>>>> feature/average
  
     } while (choice != 7);
  
