@@ -47,7 +47,14 @@ int main()
         switch (choice)
 
         {
-
+			  
+			  case 2:
+			  cout <<"first number is:"<<endl;
+			  cin>>firstNumber;
+			  cout <<"second number is"<<endl;
+			  cin>>secondNumber;
+			  int c = firstNumber-secondNumber;
+			  cout << "Result of subtraction = "<<c;
         }
  
     } while (choice != 7);
